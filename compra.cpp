@@ -3,18 +3,18 @@
 using namespace std;
 int main()
 {
-	int i=0,l;
-	float x,s=0;
-	cout<<"ingrese el limite l="; cin>>l;
+	int NACT_i=0,NACT_l;
+	float NACT_x,NACT_s=0;
+	cout<<"ingrese el limite NACT_l="; cin>>NACT_l;
 	do{
 
-	cout<<"ingrese el numero x="; cin>>x;
-	i=i+1;
-	s=s+x;
+	cout<<"ingrese el numero NACT_x="; cin>>NACT_x;
+	NACT_i=NACT_i+1;
+	NACT_s=NACT_s+NACT_x;
 
 
 
-	}while(i<l);
-	cout<<"Se ingresaron "<<l<<" numeros "<< "que sumaron "<<s<<endl;
+	}while(NACT_i<NACT_l);
+	cout<<"Se ingresaron "<<NACT_l<<" numeros "<< "que sumaron "<<NACT_s<<endl;
 	return 0;
 }
