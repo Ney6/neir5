@@ -1,17 +1,18 @@
+// Creado por Neil Aldhair Canchingre Tamayo
 #include<iostream>
 using namespace std;
 int main()
 {
-	float a,b;
-	cout<<"ingrese a b:"; cin>>a>>b;
-	if(a>b)
+	float NACT_a,NACT_b;
+	cout<<"ingrese NACT_a NACT_b:"; cin>>NACT_a>>NACT_b;
+	if(NACT_a>NACT_b) 
 	{
-	  cout<<a<<" es mayor a "<<b<<endl;
+	  cout<<NACT_a<<" es mayor NACT_a "<<NACT_b<<endl;
 
 
 	}else{
 
-	  cout<<b<<" es mayor a "<<a<<endl;
+	  cout<<NACT_b<<" es mayor NACT_a "<<NACT_a<<endl;
 
 
 	}
