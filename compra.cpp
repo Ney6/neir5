@@ -1,23 +1,20 @@
-# incluir < iostream >
-utilizando el espacio de  nombres  estándar ;
-
-int  principal ()
+//Creado por: Neil Aldhair Canchingre Tamayo
+#include<iostream>
+using namespace std;
+int main()
 {
-	int i= 0 ,l;
-	flotante x,s= 0 ;
-	cout<< " ingrese el limite l= " ; cin>>l;
-	hacer {
+	int i=0,l;
+	float x,s=0;
+	cout<<"ingrese el limite l="; cin>>l;
+	do{
 
-	cout<< " ingrese el numero x= " ; cin>>x;
-	yo = yo + 1 ;
+	cout<<"ingrese el numero x="; cin>>x;
+	i=i+1;
 	s=s+x;
 
 
 
-	} mientras (i<l);
-	cout<< " Se ingresaron " <<l<< " numeros " << " que sumaron " <<s<<endl;
-	devolve 0;
-
-
-
+	}while(i<l);
+	cout<<"Se ingresaron "<<l<<" numeros "<< "que sumaron "<<s<<endl;
+	return 0;
 }
